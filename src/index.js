@@ -3,14 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import HomePage from './component/cover-page'; 
 import SearchBar from './component/SearchBar';
-
+import EventPage from './component/events-page'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <SearchBar> </SearchBar>
-
-   
+      <EventPage></EventPage>
   </React.StrictMode>
 );
 
