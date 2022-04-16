@@ -11,3 +11,20 @@
     box-shadow: 5px 4px 29px rgba(0, 0, 0, 0.25), inset -6px -7px 4px rgba(0, 0, 0, 0.25);
     border-radius: 72px;
 }
+
+.events_page_search_initialization{
+    position: absolute;
+    width: 628px;
+    height: 24px;
+    left: 157px;
+    top: 522px;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+
+    color: #A2A2A2;
+
+}
