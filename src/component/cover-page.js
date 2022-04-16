@@ -6,10 +6,9 @@ function HomePage() {
       <div className="title-container">NEW EVENTS HELLO</div>
       <div className="subtitle-container">  To Spice Up Your Quarter </div>
       <div className="content-container"> 
-      Lorem ipsum dolor sit amet,
-      consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-      labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-      nostrud exercitation ullamco laboris.
+      Want to be more involved with school events and activity? 
+      Want to meet new friends and connect with your fellow Aggies? 
+      Check our event list and add some fun activity in your schedule.
       </div>
     </div>
   );
