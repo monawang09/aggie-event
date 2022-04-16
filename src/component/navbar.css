@@ -1,0 +1,44 @@
+.davislogo {
+  position: absolute;
+  width: 269px;
+  height: 47px;
+  left: 74px;
+  top: 53px;
+}
+
+.LoginInfo {
+  position: absolute;
+  width: 168px;
+  height: 33px;
+  margin-left: 1600px;
+  top: 62px;
+
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 35px;
+  color: #FFFFFF;
+
+
+}
+
+.Logout {
+
+  position: absolute;
+  width: 79px;
+  height: 27px;
+  margin-left: 1760px;
+  top: 72px;
+
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+
+  color: #FFFFFF;
+
+
+
+}

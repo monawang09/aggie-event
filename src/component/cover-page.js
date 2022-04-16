@@ -3,6 +3,7 @@ import circle from './images/Ellipse3.svg';
 import hero_image from './images/Ellipse 1.svg'; 
 import minorHeroImage from './images/Ellipse 4.svg'; 
 import minoroverlay from './images/Ellipse 5.svg'; 
+import NavBar from "./navbar";
 
 // import logo from '.././logo.png';
 // import homepage from './images/homepage_hero.jpg';

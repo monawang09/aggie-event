@@ -71,14 +71,15 @@
     height: 709px;
     background: #033266;
     border-radius: 50%;
+    z-index: -1;
 }
 
 .minorHeroImage {
     position: absolute;
     width: 594px;
     height: 594px;
-    left: 714px;
-    top: 327px;
+    left: 723px;
+    top: 425px;
 }
 
 .button {
