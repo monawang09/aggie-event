@@ -3,14 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import HomePage from './component/cover-page'; 
 import SearchBar from './component/SearchBar';
+import Calendar from "./component/calendar";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <SearchBar> </SearchBar>
-
-   
+      <Calendar></Calendar>
   </React.StrictMode>
 );
 

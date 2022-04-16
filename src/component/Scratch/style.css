@@ -1,0 +1,43 @@
+body{
+    font-family: 'Special Elite', cursive;
+    color: brown;
+    font-size: 20px;
+    background-color: cornsilk;
+}
+
+h1{
+    font-family: 'Special Elite', cursive;
+    font-size: 54px;
+    height: 30px;
+    text-indent: 10px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.unit{
+    width: 12%;
+    height: 100px;
+    background-color: rgb(224, 132, 99);
+    border-radius: 10%;
+    margin: 10px;
+    text-indent: 0.3em;
+    color:rgb(121, 51, 19);
+    font-style:italic;
+    font-size: 16pt;
+    padding-top: 10px;
+}
+
+.day{
+    background-color: cornsilk;
+    height: 50px;
+    margin: 10px;
+    width: 12%
+}
+
+.blank{
+    background-color: cornsilk;
+}
