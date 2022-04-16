@@ -1,0 +1,15 @@
+.events_logo{
+    position: absolute;
+    width: 575px;
+    height: 109px;
+    left: 74px;
+    top: 367px;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 86px;
+    line-height: 94px;
+
+    color: #033266;
+}
