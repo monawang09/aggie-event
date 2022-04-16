@@ -1,4 +1,5 @@
 .events_logo{
+    /* EVENTS */
     position: absolute;
     width: 575px;
     height: 109px;
@@ -10,6 +11,23 @@
     font-weight: 700;
     font-size: 86px;
     line-height: 94px;
+
+    color: #033266;
+}
+
+.publish_logo{
+    /* PUBLISH AN EVENT */
+    position: absolute;
+    width: 774px;
+    height: 73px;
+    left: 77px;
+    top: 1956px;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 70px;
 
     color: #033266;
 }

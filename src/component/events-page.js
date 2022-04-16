@@ -1,10 +1,11 @@
 import "./events-page.css"
 
-function EventPage(){
+function EventsPage(){
     return(
         <div>
             <div className = "events_logo">EVENTS </div>
+            <div className = "publish_logo">PUBLISH AN EVENT </div>
         </div>
     )
 }
-export default EventPage
+export default EventsPage
