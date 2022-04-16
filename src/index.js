@@ -8,8 +8,8 @@ import SearchBar from './component/SearchBar';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <SearchBar/>
-    <HomePage> </HomePage>
+    <SearchBar> </SearchBar>
+
    
   </React.StrictMode>
 );

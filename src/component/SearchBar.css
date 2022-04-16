@@ -28,3 +28,21 @@
     color: #A2A2A2;
 
 }
+
+input::placeholder{
+    /* Search for organizations, event name, dates, */
+
+    position: absolute;
+    width: 628px;
+    height: 24px;
+    left: 160px;
+    top: 508px;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+
+    color: #A2A2A2;
+}
