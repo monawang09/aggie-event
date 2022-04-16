@@ -1,0 +1,57 @@
+.title-container {
+    /* NEW EVENTS */
+
+    position: absolute;
+    width: 695px;
+    height: 70px;
+    left: 74px;
+    top: 481px;
+
+    font-family: "Archivo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 61px;
+
+    color: #033266;
+}
+
+.subtitle-container {
+    /* To Spice Up Your Quarter */
+
+    position: absolute;
+    width: 695px;
+    height: 93px;
+    left: 74px;
+    top: 546px;
+
+    font-family: "Archivo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 52px;
+
+    color: #000000;
+}
+
+.content-container {
+
+
+    position: absolute;
+    width: 543px;
+    height: 127px;
+    left: 74px;
+    top: 624px;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 133.3%;
+    /* or 32px */
+
+    text-align: justify;
+
+    color: #000000;
+}
+

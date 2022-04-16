@@ -1,0 +1,72 @@
+.calendar-container {
+    /* Rectangle 17 */
+
+    position: absolute;
+    width: 1358px;
+    height: 1199px;
+    left: 77px;
+    top: 635px;
+
+    background: #FFFFFF;
+    box-shadow: 6px 4px 32px rgba(0, 0, 0, 0.25);
+    border-radius: 59px;
+}
+
+.day-event-container-week {
+    /* Rectangle 20 */
+
+    position: absolute;
+    width: 290px;
+    height: 347px;
+    left: 123px;
+    top: 945px;
+
+    border: 2px solid #033266;
+    box-sizing: border-box;
+    border-radius: 24px;
+}
+
+.calendar-button-container {
+    /* Rectangle 18 */
+
+    position: absolute;
+    width: 144px;
+    height: 67px;
+    left: 1059px;
+    top: 662px;
+
+    background: #FFFFFF;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 47px;
+}
+
+.calendar-date-container-week {
+    /* APRIL 2022 */
+
+    position: absolute;
+    width: 580px;
+    height: 59px;
+    left: 123px;
+    top: 765px;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 61px;
+
+    color: #033266;
+}
+
+.event-container-week {
+    /* Rectangle 29 */
+
+    position: absolute;
+    width: 246px;
+    height: 57px;
+    left: 149px;
+    top: 1026px;
+
+    background: rgba(255, 191, 0, 0.18);
+
+}
