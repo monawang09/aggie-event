@@ -1,4 +1,6 @@
-# Aggie Event 
+# Aggie Event
+School life is all about the college experience. We established a website platform to introduce the wide variety of on-campus events and resources for freshmen and transfer residential students. We want new Aggies get the best college experience during their residency on campus. Therefore, it is important to spread fun and updated school events to them on a more organized website. Students can explore their interested and opportunities on this website and scheduled events into their calendar. Events are categorized in different ways such as locations and event types  so students can navigate them in more convenient and organized way.
+
 
 ## Our Inspiration
 Student events and residential life are essential for first-year students' college experience. Many first-year students including freshmen and transfers choose to live in residence halls and on-campus housing because they want to enrich their college experience. As a marketing assistant working at the UC Davis Student Housing and Dining Service Department, I noticed that the promotion of school activities and events for new Aggies is lacking. Many new students struggle to navigate school events and special activities since information on social media is scattered around and it can be overwhelming. On-campus events such as Chef Challenge, and Reopening of the GunRock Pub are spread through Instagram, Facebook, or flyers, but the spread isn't as effective as imagined since there are still many new students that are unaware of those events. Therefore, we want to build a platform that provides a more convenient search for on-campus school events.
@@ -17,7 +19,7 @@ Yuxin Ren, our next coder says "Though three of us are in C.S. major none of us 
 Yunkun Tang, our third coder says, "When we started the project since all of us did not have much experience in web programming, we had to keep searching and construct each individual page with great effort, which provides us with the opportunity to learn more concepts and methods about frontend programming. I believe that we have tried our best and received the best result we could achieve within the time limit."
 
 ## Accomplishments that we're proud of
+We are proud of what we have accomplished so far! This 24-hour window is such an exciting and memorable time that we will remember forever. We believed that this website will be a very helpful tool for new students at UC Davis. This platform will truly levitate UC Davis students' college experience and we are so excited about what this could turn out to be in the future.
 
-## What we learned
-
-## What's next for Untitled
+## What's next for Aggie Events 
+We are planning to implement the backend with express.js and database with mongodb. We also want to query if there are existing APIs or Frameworks to that sends weekly event update to our subscribers.
