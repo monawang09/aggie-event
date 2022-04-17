@@ -282,8 +282,8 @@
     position: absolute;
     width: 230px;
     height: 43px;
-    left: 95px;
-    top: 574px;
+    left: 113px;
+    top: 590px;
     
     font-family: 'Archivo';
     font-style: normal;
@@ -328,7 +328,7 @@
 
 .EventTypeContainer{
     position: absolute;
-    left: 100px;
+    left: 113px;
     top: 685px;
     display: flex;
     flex-direction: column;
