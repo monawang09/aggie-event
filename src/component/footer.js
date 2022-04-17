@@ -8,8 +8,21 @@ function Footer() {
 
     return (
         <div>
-            <section className="footer_background">
-                <div className="davis_logo"> <img src={davis_logo} style="width: 270px; height: auto"/></div>
+            <section className="footer_background_calendar">
+                <div className="davis_logo"> <img src={davis_logo} className="davis_logo"/></div>
+                <div className="social_handle_icon_container">
+                    <img src={facebook_logo} className="social_handle_icon"/>
+                    <img src={ins_logo} className="social_handle_icon"/>
+                    <img src={twitter_logo} className="social_handle_icon"/>
+                </div>
+                <section className="footer_text_container">
+                    <div className="footer_font">
+                        Questions or Comments? Follow Us @ucdavishousing & @ucdavisdiningservices for more updated info!
+                    </div>
+                    <div className="footer_font">
+                        Copyright © HackDavis Team C1. All rights reserved.
+                    </div>
+                </section>
             </section>
         </div>
     )

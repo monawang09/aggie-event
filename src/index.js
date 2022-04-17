@@ -10,8 +10,11 @@ import Footer from "./component/footer";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      <Calendar></Calendar>
-      <Footer></Footer>
+      <section className="page_container" >
+          {/*style={{flex: 1}}*/}
+          <Calendar></Calendar>
+          <Footer></Footer>
+      </section>
   </React.StrictMode>
 );
 
