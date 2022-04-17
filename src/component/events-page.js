@@ -1,9 +1,5 @@
 import "./events-page.css"
-import GiantUpperRectangle from "./image/GiantUpperRectangle.svg"
-import GiantLowerRectangle from "./image/GiantLowerRectangle.svg"
 import EventAdd from "./image/EventAdd.svg"
-import Box from "./image/Box.svg"
-import LongBar from "./image/LongBar.svg"
 import Freshman from "./image/FRESHMAN.svg"
 import Spring from "./image/SPRING.svg"
 import Sort from "./image/SORT.svg"
@@ -13,14 +9,15 @@ import Movie from "./image/Movie.svg"
 import Market from "./image/Market.svg"
 import Aggie from "./image/Aggie.svg"
 import BPD from "./image/BPD.svg"
+import location from "./image/Location.svg"
 
 function EventsPage(){
     return(
         <div>
-            <img src = {GiantUpperRectangle} className = 'GiantUpperRectangle'/>
-            <img src = {GiantLowerRectangle} className = 'GiantLowerRectangle'/>
+            <div className = 'GiantUpperRectangle'/>
+            <div className = 'GiantLowerRectangle'/>
 
-            <img src = {LongBar} className = 'LongBar'/>
+            <div className = 'LongBar'/>
 
             <div className="first_row_container">
                 <img src={StarWar} className = 'Box'/>
@@ -46,6 +43,7 @@ function EventsPage(){
 
             <section className="button_container">
                 <button className="SortButton"><img src = {Sort}/></button>
+                <button className="Location"><img src = {location}/></button>
                 <button className = "FilterButton"><img src = {Filter}/></button>
                 <button className="EventAdd"><img src = {EventAdd}/></button>
                 <button className= "BPD"><img src = {BPD}/></button>
