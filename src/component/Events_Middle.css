@@ -1,0 +1,70 @@
+.rc-container {
+    position: flex;
+    flex-direction: horizontal;
+    margin-top: 200px;
+    padding-right: 1em;
+    padding-inline-end: 2em;
+    width: 411px;
+    height: 517px;
+
+
+}
+
+.location {
+    /* SELECT YOUR LOCATION */
+    position: absolute;
+    width: 715px;
+    height: 70px;
+    margin-left: 30%;
+    margin-top: 100px;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 61px;
+    text-align: center;
+
+    color: #033266;
+
+}
+
+#box {
+    display: flex;
+    flex-direction: row;
+    /* width: 200px; */
+    background-color: transparent;
+    gap: 100px;
+    padding-left: 200px;
+    padding-right: 79px;
+    z-index: -1;
+
+}
+
+#text {
+    display: flex;
+    flex-direction: row;
+    /* width: 200px; */
+    background-color: transparent;
+    gap: 200px;
+    padding-left: 250px;
+    padding-right: 79px;
+}
+
+.text-style {
+    position: flex;
+    flex-direction: horizontal;
+    width: 335px;
+    height: 56px;
+
+    margin-top: -300px;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}

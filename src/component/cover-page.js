@@ -3,6 +3,8 @@ import circle from './images/Ellipse3.svg';
 import hero_image from './images/Ellipse 1.svg'; 
 import minorHeroImage from './images/Ellipse 4.svg'; 
 import minoroverlay from './images/Ellipse 5.svg'; 
+import Middle from './Events_Middle.js';
+import SavedEvent from './Saved_Event.js'
 import NavBar from "./navbar";
 
 // import logo from '.././logo.png';
@@ -20,6 +22,8 @@ function HomePage() {
          <img src={minorHeroImage} className='minorHeroImage' />
       </div>
       <div className="title-container">NEW EVENTS </div>
+      <div className="Picnic">Picnic Day</div>
+      <div className="april">April 23, 2022</div>
       <div className="subtitle-container">  To Spice Up Your Quarter </div>
       <div className="content-container"> 
       Lorem ipsum dolor sit amet,
@@ -29,7 +33,10 @@ function HomePage() {
       </div>
       <div className="buttonText">Find Out More</div>
       <div className="button"> </div>
+      <Middle></Middle>
+      <SavedEvent> </SavedEvent>
     </div>
+    
   );
 }
 

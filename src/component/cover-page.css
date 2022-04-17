@@ -112,3 +112,42 @@
 
 
 }
+
+.april {
+    position: absolute;
+    width: 515px;
+    height: 77px;
+    left: 754px;
+    margin-top: -330px;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 36px;
+    line-height: 87px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.Picnic {
+
+
+    position: absolute;
+    width: 515px;
+    height: 47px;
+    margin-left: 754px;
+    top: 680px;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 133.3%;
+    /* or 48px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
