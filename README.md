@@ -1,4 +1,4 @@
-# Aggie Event
+# Aggie:cow: Event
 School life is all about the college experience. We established a website platform to introduce the wide variety of on-campus events and resources for freshmen and transfer residential students. We want new Aggies get the best college experience during their residency on campus. Therefore, it is important to spread fun and updated school events to them on a more organized website. Students can explore their interested and opportunities on this website and scheduled events into their calendar. Events are categorized in different ways such as locations and event types  so students can navigate them in more convenient and organized way.
 
 
