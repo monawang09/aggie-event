@@ -2,25 +2,63 @@ import './calendar.css'
 
 
 function Calendar() {
-    return <div>
-        <div className="monday"> Monday </div>
-        <div className="tuesday"> Tuesday </div>
-        <div className="wednesday"> Wednesday </div>
-        <div className="thursday"> Thursday </div>
-        <div className="friday"> Friday </div>
-        <div className="saturday"> Saturday </div>
-        <div className="sunday"> Sunday </div>
-
-        <section class="grid">
-            <div className="date"> 01 </div>
-            <div className="date"> 02 </div>
-            <div className="date"> 03 </div>
-            <div className="date"> 04 </div>
-            <div className="date"> 05 </div>
-            <div className="date"> 06 </div>
-            <div className="date"> 07 </div>
+    return <section>
+        <section className="calendar-container">
+            <div className="month_font">
+                APRIL 2022 >
+            </div>
+            <div className="row">
+                <div className="date_container">
+                    <div className="date_font"> 17 </div>
+                    <div className="day_font">SUN </div>
+                </div>
+                <div className="event_container"></div>
+            </div>
+            <div className="row">
+                <div className="date_container">
+                    <div className="date_font"> 18 </div>
+                    <div className="day_font">MON </div>
+                </div>
+                <div className="event_container"></div>
+            </div>
+            <div className="row">
+                <div className="date_container">
+                    <div className="date_font"> 19 </div>
+                    <div className="day_font">TUE </div>
+                </div>
+                <div className="event_container"></div>
+            </div>
+            <div className="row">
+                <div className="date_container">
+                    <div className="date_font"> 20 </div>
+                    <div className="day_font">WED </div>
+                </div>
+                <div className="event_container"></div>
+            </div>
+            <div className="row">
+                <div className="date_container">
+                    <div className="date_font"> 21 </div>
+                    <div className="day_font">THR </div>
+                </div>
+                <div className="event_container"></div>
+            </div>
+            <div className="row">
+                <div className="date_container">
+                    <div className="date_font"> 22 </div>
+                    <div className="day_font">FRI </div>
+                </div>
+                <div className="event_container"></div>
+            </div>
+            <div className="row">
+                <div className="date_container">
+                    <div className="date_font"> 23 </div>
+                    <div className="day_font">SAT </div>
+                </div>
+                <div className="event_container"></div>
+            </div>
         </section>
-    </div>
+
+    </section>
 }
 
 export default Calendar
