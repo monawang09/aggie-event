@@ -14,6 +14,92 @@
     border-radius: 59px;
 }
 
+.title {
+    /* CALENDAR */
+
+    position: absolute;
+    width: 575px;
+    height: 109px;
+    left: 74px;
+    top: 254px;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 70px;
+
+    color: #033266;
+}
+
+.filter_and_sorter_container {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    height: 100px;
+    /*top: 600px;*/
+    margin-left: 700px;
+    /*padding-left: 900px;*/
+}
+
+.first_row {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    top: 640px;
+    -ms-flex-align: stretch;
+
+}
+
+.day_week_month_container {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    top: 640px;
+    margin-left: 50px;
+    gap: 20px;
+}
+
+.day_week_month_regular {
+    /* WEEK */
+
+    /*position: absolute;*/
+    width: 100px;
+    height: 24px;
+    left: 218px;
+    top: 509px;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+
+    color: #033266;
+}
+
+.day_week_month_faded {
+    /* MONTH */
+
+    width: 100px;
+    height: 24px;
+    left: 335px;
+    top: 509px;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+
+    color: #C4C4C4;
+}
+
+.button_icon {
+    border: none;
+    background: none;
+}
+
 /* Rectangle 31 */
 .day_container {
     display: flex;
@@ -110,7 +196,7 @@
 
     /*position: absolute;*/
     width: 580px;
-    height: 50px;
+    height: 70px;
     left: 200px;
     top: 500px;
 

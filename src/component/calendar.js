@@ -1,9 +1,25 @@
 import './calendar.css'
-
+import sort_button_icon from '../icons/Rectangle 18.svg'
+import filter_button_icon from '../icons/Rectangle 19.svg'
 
 function Calendar() {
     return <section>
+        <div className="title">
+            Calendar
+        </div>
         <section className="calendar-container">
+            <section className="first_row">
+                <section className="day_week_month_container">
+                    <div className="day_week_month_faded"> Day </div>
+                    <div className="day_week_month_regular"> Week </div>
+                    <div className="day_week_month_faded"> Month </div>
+                </section>
+                <section className="filter_and_sorter_container">
+                    <button className="button_icon"> <img src={sort_button_icon}/></button>
+                    <button className="button_icon"> <img src={filter_button_icon}/></button>
+                </section>
+            </section>
+
             <div className="month_font">
                 APRIL 2022 >
             </div>
