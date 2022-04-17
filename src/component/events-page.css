@@ -359,3 +359,65 @@
     background: none;
     border:none;
 }
+
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    left: 0px;
+    top: 2567px;
+
+    background: #3C699B;
+}
+
+.UCDlogo{
+    position: absolute;
+    width: 269px;
+    height: 47px;
+    left: 46px;
+    top: 2607px;
+}
+
+.FaceBook{
+    position: absolute;
+    left: 46px;
+    top: 2677px;
+    
+}
+
+.Ins{
+    position: absolute;
+    left: 126px;
+    top: 2682px;
+}
+
+.Twitter{
+    position: absolute;
+    left: 204px;
+    top: 2678px;
+}
+
+.footer_format{
+    width: 949px;
+    height: 0px;
+    
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 48px;
+    /* or 48px */
+    
+    
+    color: #FFFFFF;
+}
+
+.footer_container{
+    position: absolute;
+    left: 46px;
+    top: 2758px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0px;
+}

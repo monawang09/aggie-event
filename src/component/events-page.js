@@ -10,6 +10,10 @@ import Market from "./image/Market.svg"
 import Aggie from "./image/Aggie.svg"
 import BPD from "./image/BPD.svg"
 import location from "./image/Location.svg"
+import  UCDlogo from "./image/UCDlogo.svg"
+import FaceBook from "./image/Facebook.svg"
+import Instagram from "./image/Instagram.svg"
+import Twitter from "./image/Twitter.svg"
 
 function EventsPage(){
     return(
@@ -76,6 +80,15 @@ function EventsPage(){
                 <div className="EventTypeContent">Tours</div>
                 <div className="EventTypeContent">Welcome/Orientation</div>
                 <div className="EventTypeContent">Workshop/Training</div>
+            </div>
+            <div className="footer"></div>
+            <img src = {UCDlogo} className="UCDlogo"/>
+            <img src = {FaceBook} className="FaceBook"/>
+            <img src = {Instagram} className="Ins"/>
+            <img src = {Twitter} className="Twitter"/>
+            <div className="footer_container">
+                <p className="footer_format">Questions or Comments? Follow Us @ucdavishousing & @ucdavisdiningservices for more updated info!</p>
+                <p className="footer_format">Copyright © HackDavis Team C1. All rights reserved.</p>
             </div>
         </div>
     )
