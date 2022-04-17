@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+### Aggie Event 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Our Inspiration
+Student events and residential life are essential for first-year students' college experience. Many first-year students including freshmen and transfers choose to live in residence halls and on-campus housing because they want to enrich their college experience. As a marketing assistant working at the UC Davis Student Housing and Dining Service Department, I noticed that the promotion of school activities and events for new Aggies is lacking. Many new students struggle to navigate school events and special activities since information on social media is scattered around and it can be overwhelming. On-campus events such as Chef Challenge, and Reopening of the GunRock Pub are spread through Instagram, Facebook, or flyers, but the spread isn't as effective as imagined since there are still many new students that are unaware of those events. Therefore, we want to build a platform that provides a more convenient search for on-campus school events.
+## What does it offer
+Our target audience is mainly focused on on-campus residential students, including freshman, second-year, and transfer students. Users can use this website to navigate school events and explore new organizations that they are unaware of before. Users will log in with their school ID and password so the webpage can provide more personalization options on event selections. Users can search up different events that are happening on-campus, categorized in different ways such as location, event types, target audience, dates, and prices. Users can click into each event module to view event details. To schedule an event into their calendar, simply select "Yes" on the question "Are You Going," the event will automatically be added to the user's schedule. Users can cancel the scheduled event simply by selecting "No."
+## How we build it
+To begin this project, our designer planned all the layout and design on Figma. We studied the school branding color and type font because we want to make this website dedicated to the UC Davis Student Housing and Dining Service Department. We also researched school events for images and information to make the website more authentic and reliable. Next, our coders use React to compose each webpage as components and merge them to build our website prototype.
 
-## Available Scripts
+## Challenges we ran into
+None of us are familiar with using react and javascript, as this project is also a difficult learning experience for us. 
 
-In the project directory, you can run:
+Mona, one of the coders says "When I was working on the Navbar, I did not know how to route multiple web pages to react. It took me a whole afternoon to learn how to install dependencies like styled-components and router dom to connect these web pages together. " 
 
-### `npm start`
+Yuxin Ren, our next coder says "Though three of us are in C.S. major none of us is familiar with front-end developing or cooperating with each other in a project like this. There are lots of technical challenges we need to solve and learn. However, as we only have 24 hours to solve them, we can't walk through the whole learning path of it. We are forced to jump into applying them just by looking at some example codes. There are lots of concepts we have no idea, thus there are lots of issues that we have no idea how to fix." 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Yunkun Tang, our third coder says, "When we started the project since all of us did not have much experience in web programming, we had to keep searching and construct each individual page with great effort, which provides us with the opportunity to learn more concepts and methods about frontend programming. I believe that we have tried our best and received the best result we could achieve within the time limit."
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Accomplishments that we're proud of
 
-### `npm test`
+## What we learned
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## What's next for Untitled
