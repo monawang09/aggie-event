@@ -4,12 +4,14 @@ import './index.css';
 import HomePage from './component/cover-page'; 
 import SearchBar from './component/SearchBar';
 import Calendar from "./component/calendar";
+import Footer from "./component/footer";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
       <Calendar></Calendar>
+      <Footer></Footer>
   </React.StrictMode>
 );
 

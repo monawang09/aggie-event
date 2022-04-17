@@ -1,4 +1,5 @@
 import './calendar.css'
+// import Footer from './footer';
 import sort_button_icon from '../icons/Rectangle 18.svg'
 import filter_button_icon from '../icons/Rectangle 19.svg'
 
@@ -73,7 +74,6 @@ function Calendar() {
                 <div className="event_container"></div>
             </div>
         </section>
-
     </section>
 }
 
