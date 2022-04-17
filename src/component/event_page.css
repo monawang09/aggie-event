@@ -1,0 +1,368 @@
+.heroimage{
+    position: absolute;
+    width: 1200px;
+    height: 1200px;
+    left: 100px;
+    top: -300px;
+    z-index: -2;
+}
+
+.events_logo{
+    /* EVENTS */
+    position: absolute;
+    width: 575px;
+    height: 109px;
+    left: 74px;
+    top: 254px;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 70px;
+
+    color: #033266;
+}
+
+.publish_logo{
+    /* PUBLISH AN EVENT */
+
+
+    position: absolute;
+    width: 774px;
+    height: 73px;
+    left: 77px;
+    top: 2113px;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 39px;
+
+    color: #033266;
+
+}
+
+.SortIconPosition{
+    position: absolute;
+    left: 1.39%;
+    right: 0%;
+    top: 6.25%;
+    bottom: 6.24%;
+
+    background: #074080;
+}
+
+.FilterIconPosition{
+    position: absolute;
+    left: 0%;
+    right: 0.01%;
+    top: 6.25%;
+    bottom: 6.25%;
+
+    background: #074080;
+}
+
+.GiantUpperRectangle{
+    position: absolute;
+    width: 1358px;
+    height: 1609px;
+    left: 77px;
+    top: 460px;
+
+    background: #FFFFFF;
+    box-shadow: 6px 4px 32px rgba(0, 0, 0, 0.25);
+    border-radius: 59px;
+}
+
+.GiantLowerRectangle{
+    position: absolute;
+    width: 1358px;
+    height: 294px;
+    left: 77px;
+    top: 2194px;
+
+    background: #FFFFFF;
+    box-shadow: 6px 4px 32px rgba(0, 0, 0, 0.25);
+    border-radius: 59px;
+}
+
+.SegundoText{
+/* Segundo */
+
+    position: absolute;
+    width: 925px;
+    height: 61px;
+    left: 441px;
+    top: 685px;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 39px;
+
+    color: #033266;
+}
+
+.TerceroText{
+    position: absolute;
+    width: 925px;
+    height: 61px;
+    left: 441px;
+    top: 1029px;
+    
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 39px;
+    
+    color: #033266;
+}
+
+.MUText{
+    position: absolute;
+    width: 925px;
+    height: 61px;
+    left: 441px;
+    top: 1360px;
+    
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 39px;
+    
+    color: #033266;
+}
+
+.GreenText{
+    position: absolute;
+    width: 925px;
+    height: 61px;
+    left: 441px;
+    top: 1694px;
+    
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 39px;
+    
+    color: #033266;
+}
+
+.Box{
+    width: 327px;
+    height: 229px;
+    
+    background: rgba(113, 157, 205, 0.19);
+    border-radius: 28px;
+}
+
+.EventAdd{
+    position: absolute;
+    width: 411px;
+    height: 226px;
+    left: 114px;
+    top: 2220px;
+    
+    background: none;
+    border: none;
+}
+
+.first_row_container{
+    position: absolute;
+    left: 441px;
+    top: 756px;    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.second_row_container{
+    position: absolute;
+    left: 441px;
+    top: 1087px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.third_row_container{
+    position: absolute;
+    left: 441px;
+    top: 1421px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.fourth_row_container{
+    position: absolute;
+    left: 441px;
+    top: 1755px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.LongBar{
+    position: absolute;
+    width: 298px;
+    height: 1609px;
+    left: 77px;
+    top: 460px;
+    
+    background: #3C699B;
+    border-radius: 59px;
+}
+
+.SortButton{
+    position: absolute;
+    width: 144px;
+    height: 67px;
+    left: 1050px;
+    top: 490px;
+    
+    background: none;
+    border: none;
+}
+
+.FilterButton{
+    position: absolute;
+    width: 149px;
+    height: 67px;
+    left: 1225px;
+    top: 490px;
+    
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.button_container {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    height: 100px;
+    margin-left: 900px;
+}
+
+.FreshmanButton{
+    position: absolute;
+    width: 183px;
+    height: 61px;
+    left: 441px;
+    top: 580px;
+
+    border: none;
+    background: none;
+}
+
+.SpringButton{
+    position: absolute;
+    width: 226px;
+    height: 61px;
+    left: 644px;
+    top: 580px;
+
+    border:none;
+    background: none;
+}
+
+.EventType{
+    position: absolute;
+    width: 230px;
+    height: 43px;
+    left: 113px;
+    top: 590px;
+    
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    /* or 49px */
+    
+    
+    color: #FFFFFF;
+}
+
+.EventTypeTitle{
+    width: 215px;
+    height: 58px;
+    
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 58px;
+    /* or 58px */
+    
+    
+    color: #FFFFFF;
+}
+
+.EventTypeContent{
+    width: 215px;
+    height: 48px;
+    
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 48px;
+    /* or 58px */
+    
+    
+    color: #FFFFFF;
+}
+
+.EventTypeContainer{
+    position: absolute;
+    left: 113px;
+    top: 685px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+
+.BPD{
+    position: absolute;
+    width: 411px;
+    height: 226px;
+    left: 550px;
+    top: 2220px;
+    
+    background: none;
+    border:none;
+}
+
+.Location{
+    position: absolute;
+    width: 226px;
+    height: 61px;
+    left: 890px;
+    top: 580px;
+
+    background: none;
+    border:none;
+}

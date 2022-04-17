@@ -1,0 +1,89 @@
+.coming {
+    position: absolute;
+    width: 695px;
+    height: 70px;
+    margin-left: 74px;
+    margin-top: 64px;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 39px;
+
+    color: #033266;
+
+}
+
+#eventBox {
+    display: flex;
+    flex-direction: row;
+    /* width: 200px; */
+    background-color: transparent;
+    gap: 20px;
+    padding-left: 74px;
+    padding-right: 79px;
+    z-index: -2;
+}
+
+#overlay {
+    display: flex;
+    flex-direction: row;
+    /* width: 200px; */
+    background-color: transparent;
+    gap: 20px;
+    padding-left: 74px;
+    z-index: 10;
+}
+
+#vector {
+    display: flex;
+    flex-direction: row;
+    /* width: 200px; */
+    background-color: transparent;
+    gap: 400px;
+    padding-left: 390px;
+    /* z-index: 30; */
+}
+
+#font {
+    display: flex;
+    flex-direction: row;
+    /* width: 200px; */
+    background-color: transparent;
+    gap: 200px;
+    padding-left: 100px;
+}
+
+.font-container {
+    width: 236px;
+    height: 38px;
+    margin-top: -260px;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+
+    color: #FFFFFF;
+
+}
+
+
+.vectorpic {
+    margin-top: -550px;
+}
+
+.overlaymask {
+    width: 411px;
+    height: 308px;
+    margin-top: -310px;
+    z-index: 10;
+}
+
+.uppic {
+    width: 411px;
+    height: 308px;
+    margin-top: 140px;
+}

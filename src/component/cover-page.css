@@ -35,8 +35,6 @@
 }
 
 .content-container {
-
-
     position: absolute;
     width: 543px;
     height: 127px;
@@ -55,3 +53,111 @@
     color: #000000;
 }
 
+.image-container {
+    position: absolute;
+    width: 1420px;
+    height: 1430px;
+    left: 500px;
+    top: -395px;
+    z-index: -2;
+    /* background: url(IMG_2189.jpg); */
+}
+
+.overlay-container {
+    position: absolute;
+    width: 1420px;
+    height: 1430px;
+    left: 500px;
+    top: -480px;
+    z-index: -1;
+    /* background: url(IMG_2189.jpg); */
+}
+
+.circle {
+    display: absolute;
+    margin-left: 657px;
+    margin-top: 269px;
+    width: 709px;
+    height: 709px;
+    background: #033266;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.minorHeroImage {
+    position: absolute;
+    width: 594px;
+    height: 594px;
+    left: 723px;
+    top: 425px;
+}
+
+.button {
+    position: absolute;
+    width: 211px;
+    height: 58px;
+    left: 74px;
+    top: 792px;
+
+    background: rgba(255, 191, 0, 0.51);
+    border-radius: 47px;
+}
+
+.buttonText {
+
+    position: absolute;
+    width: 175px;
+    height: 25px;
+    left: 92px;
+    top: 808px;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #033266;
+
+
+}
+
+.april {
+    position: absolute;
+    width: 515px;
+    height: 77px;
+    left: 754px;
+    margin-top: -330px;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 36px;
+    line-height: 87px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.Picnic {
+
+
+    position: absolute;
+    width: 515px;
+    height: 47px;
+    margin-left: 754px;
+    top: 680px;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 133.3%;
+    /* or 48px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
