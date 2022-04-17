@@ -1,4 +1,4 @@
-### Aggie Event 
+# Aggie Event 
 
 ## Our Inspiration
 Student events and residential life are essential for first-year students' college experience. Many first-year students including freshmen and transfers choose to live in residence halls and on-campus housing because they want to enrich their college experience. As a marketing assistant working at the UC Davis Student Housing and Dining Service Department, I noticed that the promotion of school activities and events for new Aggies is lacking. Many new students struggle to navigate school events and special activities since information on social media is scattered around and it can be overwhelming. On-campus events such as Chef Challenge, and Reopening of the GunRock Pub are spread through Instagram, Facebook, or flyers, but the spread isn't as effective as imagined since there are still many new students that are unaware of those events. Therefore, we want to build a platform that provides a more convenient search for on-campus school events.
