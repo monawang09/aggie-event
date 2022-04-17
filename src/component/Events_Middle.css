@@ -68,3 +68,18 @@
     color: #FFFFFF;
 
 }
+
+
+.rightarrow {
+    position: absolute;
+    margin-left: 1780px;
+    margin-top: -300px;
+}
+
+.leftarrow{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: -300px;
+    /* bottom: 12.5%; */
+
+}

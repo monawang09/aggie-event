@@ -5,6 +5,7 @@ import minorHeroImage from './images/Ellipse 4.svg';
 import minoroverlay from './images/Ellipse 5.svg'; 
 import Middle from './Events_Middle.js';
 import SavedEvent from './Saved_Event.js'
+import UpComing from "./Up_ComingEvent";
 import NavBar from "./navbar";
 
 // import logo from '.././logo.png';
@@ -16,7 +17,7 @@ function HomePage() {
       <div>
          {/* <img src={centerCircle} className='.centerCircle' /> */}
          <div className="circle"></div>
-         <img src={circle} className='image-container' />
+         <img src={circle} className='overlay-container' />
          <img src={hero_image} className='image-container' />
          <img src={minoroverlay} className='minorHeroImage' />
          <img src={minorHeroImage} className='minorHeroImage' />
@@ -35,6 +36,8 @@ function HomePage() {
       <div className="button"> </div>
       <Middle></Middle>
       <SavedEvent> </SavedEvent>
+      <UpComing> </UpComing>
+
     </div>
     
   );

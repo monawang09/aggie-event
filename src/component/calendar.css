@@ -1,0 +1,446 @@
+.calendar-container {
+    /* Rectangle 17 */
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 1358px;
+    height: 1199px;
+    left: 77px;
+    top: 635px;
+    padding-top: 100px;
+
+    background: #FFFFFF;
+    box-shadow: 6px 4px 32px rgba(0, 0, 0, 0.25);
+    border-radius: 59px;
+}
+
+.title {
+    /* CALENDAR */
+
+    position: absolute;
+    width: 575px;
+    height: 109px;
+    left: 74px;
+    top: 254px;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 70px;
+
+    color: #033266;
+}
+
+.filter_and_sorter_container {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    height: 100px;
+    /*top: 600px;*/
+    margin-left: 700px;
+    /*padding-left: 900px;*/
+}
+
+.first_row {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    top: 640px;
+    -ms-flex-align: stretch;
+
+}
+
+.day_week_month_container {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    top: 640px;
+    margin-left: 50px;
+    gap: 20px;
+}
+
+.day_week_month_regular {
+    /* WEEK */
+
+    /*position: absolute;*/
+    width: 100px;
+    height: 24px;
+    left: 218px;
+    top: 509px;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+
+    color: #033266;
+}
+
+.day_week_month_faded {
+    /* MONTH */
+
+    width: 100px;
+    height: 24px;
+    left: 335px;
+    top: 509px;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+
+    color: #C4C4C4;
+}
+
+.button_icon {
+    border: none;
+    background: none;
+}
+
+/* Rectangle 31 */
+.day_container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.day_container > div {
+    width: 1000px;
+    margin: 100px;
+    line-height: 200px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    height: 200px;
+}
+
+.event_container {
+    /* Rectangle 31 */
+
+    position: absolute;
+    width: 1063px;
+    height: 127px;
+    left: 150px;
+    /*top: 669px;*/
+
+    border: 2px solid #033266;
+    box-sizing: border-box;
+    border-radius: 24px;
+
+}
+
+.day_font {
+    /* SUN */
+
+    width: 108px;
+    height: 24px;
+    left: -17px;
+    position: absolute;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #033266;
+
+}
+
+.date_font {
+    /* 17 */
+
+    position: absolute;
+    width: 75px;
+    height: 59px;
+    /*left: 165px;
+    top: 720px;*/
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 61px;
+    text-align: center;
+
+    color: #033266;
+}
+
+.date_container {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    position: absolute;
+    left:50px;
+}
+
+.date_container > div {
+    line-height: 3;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.month_font {
+    /* APRIL 2022 */
+
+    /*position: absolute;*/
+    width: 580px;
+    height: 70px;
+    left: 200px;
+    top: 500px;
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 39px;
+    padding-left: 50px;
+    color: #033266;
+
+
+}
+
+/*.day-event-container-week {*/
+/*    !* Rectangle 20 *!*/
+
+/*    position: absolute;*/
+/*    width: 290px;*/
+/*    height: 347px;*/
+/*    left: 123px;*/
+/*    top: 945px;*/
+
+/*    border: 2px solid #033266;*/
+/*    box-sizing: border-box;*/
+/*    border-radius: 24px;*/
+/*}*/
+
+/*.calendar-button-container {*/
+/*    !* Rectangle 18 *!*/
+
+/*    position: absolute;*/
+/*    width: 144px;*/
+/*    height: 67px;*/
+/*    left: 1059px;*/
+/*    top: 662px;*/
+
+/*    background: #FFFFFF;*/
+/*    box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.25);*/
+/*    border-radius: 47px;*/
+/*}*/
+
+/*.calendar-date-container-week {*/
+/*    !* APRIL 2022 *!*/
+
+/*    position: absolute;*/
+/*    width: 580px;*/
+/*    height: 59px;*/
+/*    left: 123px;*/
+/*    top: 765px;*/
+
+/*    font-family: 'Archivo';*/
+/*    font-style: normal;*/
+/*    font-weight: 700;*/
+/*    font-size: 56px;*/
+/*    line-height: 61px;*/
+
+/*    color: #033266;*/
+/*}*/
+
+/*.event-container-week {*/
+/*    !* Rectangle 29 *!*/
+
+/*    position: absolute;*/
+/*    width: 246px;*/
+/*    height: 57px;*/
+/*    left: 149px;*/
+/*    top: 1026px;*/
+
+/*    background: rgba(255, 191, 0, 0.18);*/
+
+/*}*/
+
+/*.sunday {*/
+/*    !* SUNDAY *!*/
+
+/*    position: absolute;*/
+/*    width: 108px;*/
+/*    height: 24px;*/
+/*    left: 214px;*/
+/*    top: 911px;*/
+
+/*    font-family: 'Archivo';*/
+/*    font-style: normal;*/
+/*    font-weight: 700;*/
+/*    font-size: 24px;*/
+/*    line-height: 26px;*/
+/*    text-align: center;*/
+
+/*    color: #033266;*/
+
+/*}*/
+
+/*.monday {*/
+/*    !* MONDAY *!*/
+
+/*    position: absolute;*/
+/*    width: 108px;*/
+/*    height: 24px;*/
+/*    left: 539px;*/
+/*    top: 911px;*/
+
+/*    font-family: 'Archivo';*/
+/*    font-style: normal;*/
+/*    font-weight: 700;*/
+/*    font-size: 24px;*/
+/*    line-height: 26px;*/
+/*    text-align: center;*/
+
+/*    color: #033266;*/
+
+/*}*/
+
+/*.tuesday {*/
+/*    !* TUESDAY *!*/
+
+/*    position: absolute;*/
+/*    width: 125px;*/
+/*    height: 24px;*/
+/*    left: 855px;*/
+/*    top: 911px;*/
+
+/*    font-family: 'Archivo';*/
+/*    font-style: normal;*/
+/*    font-weight: 700;*/
+/*    font-size: 24px;*/
+/*    line-height: 26px;*/
+/*    text-align: center;*/
+
+/*    color: #033266;*/
+
+/*}*/
+
+/*.wednesday {*/
+/*    !* WEDNESDAY *!*/
+
+/*    position: absolute;*/
+/*    width: 166px;*/
+/*    height: 24px;*/
+/*    left: 1167px;*/
+/*    top: 914px;*/
+
+/*    font-family: 'Archivo';*/
+/*    font-style: normal;*/
+/*    font-weight: 700;*/
+/*    font-size: 24px;*/
+/*    line-height: 26px;*/
+/*    text-align: center;*/
+
+/*    color: #033266;*/
+
+/*}*/
+
+/*.thursday {*/
+/*    !* THURSDAY *!*/
+
+/*    position: absolute;*/
+/*    width: 138px;*/
+/*    height: 24px;*/
+/*    left: 199px;*/
+/*    top: 1370px;*/
+
+/*    font-family: 'Archivo';*/
+/*    font-style: normal;*/
+/*    font-weight: 700;*/
+/*    font-size: 24px;*/
+/*    line-height: 26px;*/
+/*    text-align: center;*/
+
+/*    color: #033266;*/
+
+/*}*/
+
+/*.friday {*/
+/*    !* FRIDAY *!*/
+
+/*    position: absolute;*/
+/*    width: 108px;*/
+/*    height: 24px;*/
+/*    left: 539px;*/
+/*    top: 1370px;*/
+
+/*    font-family: 'Archivo';*/
+/*    font-style: normal;*/
+/*    font-weight: 700;*/
+/*    font-size: 24px;*/
+/*    line-height: 26px;*/
+/*    text-align: center;*/
+
+/*    color: #033266;*/
+/*}*/
+
+/*.saturday {*/
+/*    !* SATURDAY *!*/
+
+/*    position: absolute;*/
+/*    width: 156px;*/
+/*    height: 24px;*/
+/*    left: 840px;*/
+/*    top: 1370px;*/
+
+/*    font-family: 'Archivo';*/
+/*    font-style: normal;*/
+/*    font-weight: 700;*/
+/*    font-size: 24px;*/
+/*    line-height: 26px;*/
+/*    text-align: center;*/
+
+/*    color: #033266;*/
+
+/*}*/
+
+/*.grid {*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: space-around;*/
+/*}*/
+
+/*.date {*/
+/*    !* 17 *!*/
+/*    width: 75px;*/
+/*    height: 59px;*/
+/*    background-color: #FFFFFF;*/
+/*    border-radius: 10%;*/
+/*    margin: 10px;*/
+/*    text-indent: 0.3em;*/
+/*    color: #033266;*/
+/*    font-family: 'Archivo';*/
+/*    font-size: 56pt;*/
+/*    padding-top: 10px;*/
+
+/*    !*position: absolute;*!*/
+/*    !*width: 75px;*!*/
+/*    !*height: 59px;*!*/
+/*    !*left: 230px;*!*/
+/*    !*top: 854px;*!*/
+
+/*    !*font-family: 'Archivo';*!*/
+/*    !*font-style: normal;*!*/
+/*    !*font-weight: 700;*!*/
+/*    !*font-size: 56px;*!*/
+/*    !*line-height: 61px;*!*/
+/*    !*text-align: center;*!*/
+
+/*    !*color: #033266;*!*/
+
+/*}*/

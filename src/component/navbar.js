@@ -10,8 +10,8 @@ function Navbar() {
     </div>
     <Nav>
       <NavMenu>
-        <NavLink to="/profile" >
-          Profile
+        <NavLink to="/" >
+          Home
         </NavLink>
         <NavLink to="/events" >
           Events

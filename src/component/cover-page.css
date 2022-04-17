@@ -58,7 +58,17 @@
     width: 1420px;
     height: 1430px;
     left: 500px;
-    top: -400px;
+    top: -395px;
+    z-index: -2;
+    /* background: url(IMG_2189.jpg); */
+}
+
+.overlay-container {
+    position: absolute;
+    width: 1420px;
+    height: 1430px;
+    left: 500px;
+    top: -480px;
     z-index: -1;
     /* background: url(IMG_2189.jpg); */
 }

@@ -1,7 +1,9 @@
 import "./Events_Middle.css";
-import segundo from "./images/Rectangle 15.svg";
-import tecero from "./images/Rectangle 17.svg";
-import curato from "./images/Rectangle16.svg";
+import segundo from "./images/Housing.png";
+import tecero from "./images/Rectangle 17.png";
+import curato from "./images/Rectangle 16.png";
+import leftarrow from "./images/arrowl.svg";
+import rightarrow from "./images/arrowr.svg";
 
 function Middle(props) {
   return (
@@ -17,6 +19,8 @@ function Middle(props) {
           <div className="text-style">Tecero</div>
           <div className="text-style">Curato</div>
       </div>
+        <img src={leftarrow} className="leftarrow" />
+        <img src={rightarrow} className="rightarrow" />
      </div>
   );
 }
