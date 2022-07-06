@@ -23,3 +23,6 @@ We are proud of what we have accomplished so far! This 24-hour window is such an
 
 ## What's next for Aggie Events 
 We are planning to implement the backend with express.js and database with mongodb. We also want to query if there are existing APIs or Frameworks to that sends weekly event update to our subscribers.
+
+## TestUpload
+This is a test to see whether if this can be synced by Azure Devops
